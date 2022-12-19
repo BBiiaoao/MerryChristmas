@@ -24,9 +24,24 @@ h1 {
 }
 
 h1 span {
-	display: block;
 	-webkit-transform: skew(-20deg);
 	transform: skew(-20deg);
+}
+
+audio {
+	display: none;
+}
+
+.imgContainer {
+	position: absolute;
+	text-align: center;
+	width: 100%;
+}
+
+.imgContainer img {
+	width: 100%;
+	height: auto;
+	max-width: 500px;
 }
 
 .merrywrap {
@@ -55,7 +70,7 @@ h1 span {
 }
 
 .giftbox::after {
-	content: 'Click me';
+	content: 'DingDing Click me';
 	position: absolute;
 	color: #fff;
 	font-family: 'Peralta', serif;
